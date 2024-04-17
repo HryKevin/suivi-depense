@@ -1,6 +1,8 @@
 <div class="container login-container">
     <form class="login-form fade-in" method="POST">
-        <h1 class="text-center mb-4">Se connecter</h1>
+        <h1 class="text-center mb-4">Connectez-vous</h1>
+        <h5 class="text-center mb-4">Suivez toutes vos dépenses en un clic !</h5>
+        <p class="text-center mb-4"><i>BudgetBuddy</i></p>
         <div class="form-group">
             <label for="email">Email :</label>
             <input type="email" class="form-control" id="email" name="email" placeholder="Email">

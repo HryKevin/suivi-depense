@@ -31,7 +31,7 @@ if (isset ($_POST['submit'])) {
                 $_SESSION['user']['id'] = $utilisateur['id_ssd_users'];
                 $_SESSION['user']['date'] = $utilisateur['date_inscr'];
 
-                header('Location: /?page=profil');
+                header('Location: /?page=profil&id=' . $utilisateur['id_ssd_users'] );
 
             } else {
                 $errors['password'] = 'Email ou mot de passe invalide';
