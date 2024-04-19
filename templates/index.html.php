@@ -29,8 +29,8 @@
   <div class="row vh-100 align-items-center">
     <div class="col-md-6 offset-md-3 text-center">
       <h1><b>BudgetBuddy</b></h1>
-      <h4></h4>
       <p>Ne vous laissez plus jamais suprendre par une dépense oublié !</p>
+      <a href="/?page=porte-monnaie" class="btn btn-primary">Porte-Monnaie</a>
     </div>
   </div>
 </div>
